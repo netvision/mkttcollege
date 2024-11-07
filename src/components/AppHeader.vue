@@ -3,6 +3,13 @@ const menuItems = [
         { label: 'Home', url: '/' },
         { label: 'Principal & Staff', url: '/staff' },
 		{ label: 'Facilities', url: '/facilities' },
+		{ label: 'Students',
+		subMenu: [
+				{ label: 'Session 2022-23', url: '/students22-23' },
+				{ label: 'Session 2021-22', url: '/students21-22' },
+			],
+			showArrow: true
+		},
 		{
 			label: 'Documents',
 			subMenu: [
@@ -11,7 +18,8 @@ const menuItems = [
 				{ label: 'Building Map', url: '/map' },
 				{ label: 'Society Registration', url: '/society' },
 				{ label: 'Govt. NOC', url: '/noc' },
-				{ label: 'NCTE Recognition', url: '/ncte' }
+				{ label: 'NCTE Recognition', url: '/ncte' },
+				{ label: 'Latest Balance Sheet', url: '/balancesheet' }
 			],
 			showArrow: true
 		},

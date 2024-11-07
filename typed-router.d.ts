@@ -31,6 +31,7 @@ declare module '@vue-router/routes' {
   export interface RouteNamedMap {
     'home': RouteRecordInfo<'home', '/', Record<never, never>, Record<never, never>>,
     'not-found': RouteRecordInfo<'not-found', '/:all(.*)', { all: ParamValue<true> }, { all: ParamValue<false> }>,
+    '/balancesheet': RouteRecordInfo<'/balancesheet', '/balancesheet', Record<never, never>, Record<never, never>>,
     '/contact': RouteRecordInfo<'/contact', '/contact', Record<never, never>, Record<never, never>>,
     '/conversion': RouteRecordInfo<'/conversion', '/conversion', Record<never, never>, Record<never, never>>,
     '/facilities': RouteRecordInfo<'/facilities', '/facilities', Record<never, never>, Record<never, never>>,
@@ -40,6 +41,8 @@ declare module '@vue-router/routes' {
     '/noc': RouteRecordInfo<'/noc', '/noc', Record<never, never>, Record<never, never>>,
     '/society': RouteRecordInfo<'/society', '/society', Record<never, never>, Record<never, never>>,
     '/staff': RouteRecordInfo<'/staff', '/staff', Record<never, never>, Record<never, never>>,
+    '/students21-22': RouteRecordInfo<'/students21-22', '/students21-22', Record<never, never>, Record<never, never>>,
+    '/students22-23': RouteRecordInfo<'/students22-23', '/students22-23', Record<never, never>, Record<never, never>>,
   }
 }
 
