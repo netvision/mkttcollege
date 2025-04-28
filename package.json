@@ -33,7 +33,7 @@
 		"@vueuse/components": "^8.9.3",
 		"@vueuse/core": "^8.9.3",
 		"@vueuse/head": "^0.7.6",
-		"autoprefixer": "^10.4.7",
+		"autoprefixer": "^10.4.20",
 		"pdf-vue3": "^1.0.12",
 		"pinia": "^2.0.16",
 		"postcss": "^8.4.14",
